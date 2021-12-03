@@ -54,7 +54,7 @@ module.exports = {
     // console.log(modifiedBeans);
     res.send({
       data: modifiedBeans.dataValues,
-      message: 'successfully modified',
+      message: 'ok',
     });
   },
 };
