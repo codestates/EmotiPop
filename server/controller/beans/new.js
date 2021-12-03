@@ -10,7 +10,7 @@ module.exports = {
     }
 
     const accessTokenData = isAuthorized(req);
-    // console.log(accessTokenData);
+    // console.log('---------', accessTokenData);
     const userInfo = await Users.findOne({
       attributes: { exclude: ['password'] },
       where: {
@@ -37,6 +37,6 @@ module.exports = {
 
     await Beans.create({ ...data });
 
-    res.json({ ...data });
+    res.json({ data: { ...data }, message: 'ok' });
   },
 };
