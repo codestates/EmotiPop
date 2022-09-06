@@ -5,8 +5,16 @@
 ----
 
 # 🔗 배포 정보
+
 [📱 EmotiPop](https://play.google.com/store/apps/details?id=com.dropTheCode.EmotiPop)
 > **![image](https://img.shields.io/badge/BACK-Google%20Play-%23414141?style=for-the-badge&logo=Google%20Play) 에 `EmotiPop`을 검색하세요**
+
+
+**⚠️ 현재 AWS 과금으로 인해 서버 배포가 중지된 상태입니다.**
+
+**🚩 실행 화면은 다음 링크에서 확인할 수 있습니다.**
+
+[실행 화면](https://github.com/codestates/EmotiPop/wiki/Final-App-Screen)
 
 # 💡 EmotiPop은 어떤 서비스인가요?
 > **"당신의 순간의 감정을 기록하세요"**
